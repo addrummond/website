@@ -1,0 +1,228 @@
+define(`GREEN', `#4c5344')
+define(`GREY', `#a7a6a1')
+define(`LIGHT_GREY', `#bebdb7')
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: large;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 800px;
+}
+
+h1 {
+  display: block;
+  font-size: medium;
+  font-weight: normal;
+  margin: 0;
+  height: 2.62em;
+  text-shadow: LIGHT_GREY 1px 1px 2px;
+  position: relative;
+}
+h1 a {
+  display: block;
+  font-size: xx-large;
+  position: absolute;
+  bottom: 0;
+  width: 9em;
+  color: black;
+  text-decoration: none;
+  text-shadow: none;
+}
+h1 a:visited {
+  color: black;
+  text-decoration: none;
+}
+h1 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: x-large;
+}
+h3 {
+  font-weight: normal;
+  font-size: large;
+}
+/* For CV */
+h3 + ul {
+  font-size: medium;
+}
+
+a {
+  font-weight: normal;
+  color: GREEN;
+  text-shadow: LIGHT_GREY 1px 1px 2px;
+  text-decoration: none;
+}
+a:visited {
+  font-weight: normal;
+  color: GREEN;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: normal;
+  color: GREY;
+  text-decoration: none;
+}
+
+h1 {
+  float: left;
+  clear: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#nav {
+  clear: none;
+  margin: 0;
+  padding: 0;
+}
+#nav li {
+  font-size: medium;
+  width: 7.5em;
+  height: 2.62em;
+  background: GREEN;
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding-right: 0.25em;
+}
+#nav li + li {
+  margin-right: 1em;
+}
+#nav li:hover {
+  background: GREY;
+}
+#nav li a {
+  width: 7.5em;
+  display: block;
+  text-align: right;
+  text-shadow: none;
+  line-height: 3.87em;
+  font-size: medium;
+  color: white;
+}
+#nav li a:hover {
+  text-decoration: none;
+}
+#nav li a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#tp {
+  font-size: medium;
+  padding: 0;
+  margin: 0;
+  width: 800px;
+  height: 0;
+  clear: both;
+  border-left: none; border-right: none;
+  border-bottom: 1px solid LIGHT_GREY;
+  border-top: 2em solid white;
+  margin-bottom: 2em;
+}
+#bttm {
+  font-size: medium;
+  padding: 0;
+  margin: 0;
+  width: 800px;
+  height: 0;
+  clear: both;
+  border-left: none; border-right: none;
+  border-top: 2em solid white;
+  border-bottom: 1px solid LIGHT_GREY;
+}
+
+#contact {
+  font-size: small;
+}
+#contact div {
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+  color: GREY;
+}
+#contact div:first-child {
+  float: left;
+}
+#contact div:first-child + div {
+  float: right;
+}
+#contact div a {
+  font-weight: bold;
+}
+
+.mainimage {
+  display: block;
+  float: left;
+  width: 250px;
+  height: 250px;
+  background: white;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+.mainimage + .mainimage {
+  margin-left: 25px;
+}
+.mainimage div {
+  position: relative;
+  top: 250px;
+  font-size: small;
+  padding-top: 0.25em;
+  padding-right: 10px;
+  text-align: right;
+  background: white;
+  color: GREEN;
+  text-shadow: none;
+}
+
+#alexdave {
+  background-image: url('alexdave.jpg');
+}
+#ibex {
+  background-image: url('ibex.jpg');
+}
+#uncartesian {
+  background-image: url('uncartesian.jpg');
+}
+
+ul.cv {
+  padding-left: 0;
+  margin-left: 0;
+  position: relative;
+}
+ul.cv li {
+  margin-left: 5em;
+  margin-bottom: 1em;
+  margin-top: 0;
+  padding-left: 0;
+  list-style: none;
+}
+ul.cv li.year {
+  float: left;
+/*  position: relative;
+  right: 5em;*/
+  margin-bottom: 0;
+  color: white;
+  margin-left: 0;
+  background: GREEN;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-right: 0;
+  height: 1.1em;
+  width: 3em;
+  text-align: center;
+  font-size: small;
+}
+ul.cv li.noyear {
+  background: LIGHT_GREY;
+}
+
+ul.cv + h3 {
+  margin-top: 2em;
+}
