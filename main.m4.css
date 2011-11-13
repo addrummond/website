@@ -214,9 +214,8 @@ ul.cv li.year {
   margin-left: 0;
   background: none;
   width: 2.75em;
-  padding-top: 0.2em;
   text-align: right;
-  font-size: small;
+  font-size: medium;
   vertical-align: middle;
 }
 ul.cv li.range {
