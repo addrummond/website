@@ -199,7 +199,7 @@ ul.cv {
   position: relative;
 }
 ul.cv li {
-  margin-left: 5em;
+  margin-left: 8em;
   margin-bottom: 1em;
   margin-top: 0;
   padding-left: 0;
@@ -207,22 +207,24 @@ ul.cv li {
 }
 ul.cv li.year {
   float: left;
-/*  position: relative;
-  right: 5em;*/
+  position: relative;
+  left: 2.45em;
   margin-bottom: 0;
-  color: white;
+  color: GREEN;
   margin-left: 0;
-  background: GREEN;
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
-  padding-right: 0;
-  height: 1.1em;
-  width: 3em;
-  text-align: center;
+  background: none;
+  width: 2.75em;
+  padding-top: 0.2em;
+  text-align: right;
   font-size: small;
+  vertical-align: middle;
+}
+ul.cv li.range {
+  width: 5.2em;
+  left: 0;
 }
 ul.cv li.noyear {
-  background: LIGHT_GREY;
+  background: none;
 }
 
 ul.cv + h3 {
