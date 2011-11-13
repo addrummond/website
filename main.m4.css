@@ -45,6 +45,7 @@ h1 a:hover {
 h2 {
   font-weight: normal;
   font-size: x-large;
+  clear: none;
 }
 h3 {
   font-weight: normal;
@@ -53,6 +54,14 @@ h3 {
 /* For CV */
 h3 + ul {
   font-size: medium;
+}
+/* For email address in CV */
+h2 + h2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 a {
@@ -203,19 +212,22 @@ h1 {
   background-image: url('uncartesian.jpg');
 }
 
-ul.cv {
+.cv {
+  position: relative;
+}
+.cv ul {
   padding-left: 0;
   margin-left: 0;
   position: relative;
 }
-ul.cv li {
+.cv ul li {
   margin-left: 8em;
   margin-bottom: 1em;
   margin-top: 0;
   padding-left: 0;
   list-style: none;
 }
-ul.cv li.year {
+.cv ul li.year {
   float: left;
   position: relative;
   left: 2.45em;
@@ -228,14 +240,14 @@ ul.cv li.year {
   font-size: medium;
   vertical-align: middle;
 }
-ul.cv li.range {
+.cv ul li.range {
   width: 5.2em;
   left: 0;
 }
-ul.cv li.noyear {
+.cv ul li.noyear {
   background: none;
 }
 
-ul.cv + h3 {
+.cv ul + h3 {
   margin-top: 2em;
 }
