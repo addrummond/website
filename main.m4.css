@@ -9,7 +9,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  width: 800px;
+  max-width: 800px;
 }
 
 h1 {
@@ -181,6 +181,16 @@ h1 {
   background: white;
   color: GREEN;
   text-shadow: none;
+}
+
+.mainimage + p {
+  clear: both;
+}
+.mainimage + h2 {
+  clear: both;
+}
+.mainimage + h3 {
+  clear: both;
 }
 
 #alexdave {
