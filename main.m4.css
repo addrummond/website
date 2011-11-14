@@ -233,13 +233,12 @@ h1 {
 .cv ul li.year {
   float: left;
   position: relative;
-  left: 2.45em;
   margin-bottom: 0;
   color: GREEN;
   margin-left: 0;
   background: none;
   width: 2.75em;
-  text-align: right;
+  text-align: left;
   font-size: medium;
   vertical-align: middle;
 }
