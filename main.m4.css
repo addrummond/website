@@ -51,8 +51,7 @@ h3 {
   font-weight: normal;
   font-size: large;
 }
-/* For CV */
-h3 + ul {
+.cv ul {
   font-size: medium;
 }
 /* For email address in CV */
