@@ -125,6 +125,10 @@ h1 {
   color: white;
 }
 
+#nav li.current {
+  background: GREY;
+}
+
 #tp {
   font-size: medium;
   padding: 0;

@@ -10,9 +10,9 @@
 <h1><a href="index.html">Alex Drummond</a></h1>
 
 <ul id="nav">
-<li><a href="personal.html">PERSONAL</a></li>
-<li><a href="papers.html">PAPERS</a></li>
-<li><a href="cv.html">CV</a></li>
+<li ifelse(THISPAGE, `personal.html', `class="current"')><a href="personal.html">PERSONAL</a></li>
+<li ifelse(THISPAGE, `papers.html', `class="current"')><a href="papers.html">PAPERS</a></li>
+<li ifelse(THISPAGE, `cv.html', `class="current"')><a href="cv.html">CV</a></li>
 </ul>
 
 <hr id="tp" />
