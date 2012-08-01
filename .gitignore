@@ -1,4 +1,5 @@
 *.html
 !*.m4.html
+!*.m4i.html
 *.css
 !*.m4.css
