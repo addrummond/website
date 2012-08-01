@@ -1,1 +1,4 @@
 *.html
+!*.m4.html
+*.css
+!*.m4.css
