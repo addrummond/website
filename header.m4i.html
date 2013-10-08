@@ -5,7 +5,9 @@
 <meta name="keywords" content="linguistics,syntax" />
 <meta name="author" content="Alex Drummond" />
 
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="main.css" />
+ifdef(`CSS_INCLUDE', `<link rel="stylesheet" type="text/css" href="CSS_INCLUDE">')
 
 include(googleanalyticsua.m4)
 <script type="text/javascript">
@@ -24,12 +26,10 @@ include(googleanalyticsua.m4)
 </head>
 
 <body>
-<h1><a href="/">Alex Drummond</a></h1>
+<h1>Alex Drummond</h1>
 
 <ul id="nav">
 <li ifelse(THISPAGE, `software', `class="current"')><a href="software">SOFTWARE</a></li>
 <li ifelse(THISPAGE, `papers', `class="current"')><a href="papers">PAPERS</a></li>
 <li ifelse(THISPAGE, `cv', `class="current"')><a href="cv">CV</a></li>
 </ul>
-
-<hr id="tp" />

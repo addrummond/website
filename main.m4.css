@@ -1,54 +1,58 @@
-define(`GREEN', `#4c5344')
-define(`GREY', `#a7a6a1')
-define(`LIGHT_GREY', `#bebdb7')
+include(`cssdefs.m4')
 
 body {
-  font-family: Helvetica, sans-serif;
-  font-size: large;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: medium;
+  NORMWEIGHT;
 
+  border-top: 1em solid white;
+
+  margin-top: PAGE_TOP_SKIP_EM()em;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
   max-width: 800px;
+  color: DARKGREY;
 }
 
+p {
+  font-size: large;
+}
+
+/*ul#nav + p {
+  margin-top: GOLDEN()em;
+  padding-top: 2em;
+}*/
+
 h1 {
-  display: block;
-  font-size: medium;
-  font-weight: normal;
   margin: 0;
-  height: 2.62em;
-  position: relative;
-}
-h1 a {
-  display: block;
-  font-size: xx-large;
+  padding: 0;
+  font-size: medium;
+  font-size: GOLDEN_FONT()em;
+  DARKGREY;
+  NORMWEIGHT;
+  text-transform: uppercase;
   position: absolute;
-  bottom: 0;
-  width: 9em;
-  color: black;
-  text-decoration: none;
-  text-shadow: none;
-  text-shadow: LIGHT_GREY 1px 1px 2px;
+  vertical-align: bottom;
+  margin-top: NAME_NUDGE;
 }
-h1 a:visited {
-  color: black;
-  text-decoration: none;
-  text-shadow: LIGHT_GREY 1px 1px 2px;
-}
-h1 a:hover {
-  color: black;
-  text-decoration: none;
-  text-shadow: GREEN 1px 1px 2px;
+
+strong, b {
+  BOLD;
+  BLACK;
 }
 
 h2 {
-  font-weight: normal;
+  BOLD;
+  BLACK;
   font-size: x-large;
   clear: none;
 }
 h3 {
-  font-weight: normal;
+  BOLD;
+  BLACK;
   font-size: large;
 }
 .cv ul {
@@ -64,27 +68,19 @@ h2 + h2 {
 }
 
 a {
-  font-weight: normal;
+  HEAVY;
   color: GREEN;
-  text-shadow: LIGHT_GREY 1px 1px 2px;
   text-decoration: none;
 }
 a:visited {
-  font-weight: normal;
+  HEAVY;
   color: GREEN;
   text-decoration: none;
 }
 a:hover {
-  font-weight: normal;
+  HEAVY;
   color: GREY;
   text-decoration: none;
-}
-
-h1 {
-  float: left;
-  clear: none;
-  padding-top: 0;
-  margin-top: 0;
 }
 
 #nav {
@@ -95,11 +91,12 @@ h1 {
 #nav li {
   font-size: medium;
   width: 7.5em;
-  height: 2.62em;
+  height: GOLDEN()em;
   background: GREEN;
   list-style: none;
   float: right;
   margin: 0;
+  padding: 0;
   padding-right: 0.25em;
 }
 #nav li + li {
@@ -112,10 +109,10 @@ h1 {
   width: 7.5em;
   display: block;
   text-align: right;
-  text-shadow: none;
   line-height: 3.87em;
   font-size: medium;
   color: white;
+  NORMWEIGHT;
 }
 #nav li a:hover {
   text-decoration: none;
@@ -129,18 +126,6 @@ h1 {
   background: GREY;
 }
 
-#tp {
-  font-size: medium;
-  padding: 0;
-  margin: 0;
-  width: 800px;
-  height: 0;
-  clear: both;
-  border-left: none; border-right: none;
-  border-bottom: 1px solid LIGHT_GREY;
-  border-top: 2em solid white;
-  margin-bottom: 2em;
-}
 #bttm {
   font-size: medium;
   padding: 0;
@@ -168,7 +153,7 @@ h1 {
   float: right;
 }
 #contact div a {
-  font-weight: bold;
+  HEAVY;
 }
 
 .mainimage {
@@ -192,7 +177,6 @@ h1 {
   text-align: right;
   background: white;
   color: GREEN;
-  text-shadow: none;
 }
 
 .mainimage + p {
