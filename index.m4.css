@@ -1,0 +1,13 @@
+include(`cssdefs.m4')
+
+body {
+  background-image: url('leaves.jpg');
+  background-repeat: no-repeat;
+  background-position: center GOLDEN_PLUS_2SKIP()em;
+}
+
+#nav {
+  padding-bottom: GOLDEN_PLUS_2SKIP()em;
+  margin-bottom: STRIPHEIGHT()px;
+}
+

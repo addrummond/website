@@ -84,9 +84,11 @@ a:hover {
 }
 
 #nav {
+  font-size: medium;
   clear: none;
   margin: 0;
   padding: 0;
+  padding-bottom: 4em;
 }
 #nav li {
   font-size: medium;
