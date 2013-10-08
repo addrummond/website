@@ -30,13 +30,28 @@ h1 {
   margin: 0;
   padding: 0;
   font-size: medium;
-  font-size: GOLDEN_FONT()em;
-  DARKGREY;
+  height: GOLDEN()em;
+  float: left;
+  position: relative;
+}
+
+h1 > a {
+  color: DARKGREY;
   NORMWEIGHT;
   text-transform: uppercase;
+  display: block;
   position: absolute;
-  vertical-align: bottom;
-  margin-top: NAME_NUDGE;
+  bottom: -0.125em;
+  font-size: xx-large;
+  width: 10em;
+}
+h1 > a:hover {
+  color: DARKGREY;
+  NORMWEIGHT;
+}
+h1 > a:visited {
+  color: DARKGREY;
+  NORMWEIGHT;
 }
 
 strong, b {
