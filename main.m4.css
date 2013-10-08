@@ -82,12 +82,10 @@ h2 + h2 {
 
 a {
   HEAVY;
-  color: GREEN;
   text-decoration: none;
 }
 a:visited {
   HEAVY;
-  color: GREEN;
   text-decoration: none;
 }
 a:hover {
@@ -107,7 +105,6 @@ a:hover {
   font-size: medium;
   width: 7.5em;
   height: GOLDEN()em;
-  background: GREEN;
   list-style: none;
   float: right;
   margin: 0;
@@ -191,7 +188,6 @@ a:hover {
   padding-right: 10px;
   text-align: right;
   background: white;
-  color: GREEN;
 }
 
 .mainimage + p {
@@ -233,7 +229,6 @@ a:hover {
   float: left;
   position: relative;
   margin-bottom: 0;
-  color: GREEN;
   margin-left: 0;
   background: none;
   width: 2.75em;
