@@ -1,4 +1,3 @@
-define(`GREEN', `#444')
 define(`GREY', `#aaa')
 define(`LIGHT_GREY', `#ccc')
 
