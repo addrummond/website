@@ -12,7 +12,7 @@ define(`PAGE_TOP_SKIP_EM', `1')
 
 define(`GOLDEN', `2.62')
 define(`GOLDEN_FONT', `2.59')
-define(`STRIPHEIGHT', `100')
+define(`STRIPHEIGHT', `83')
 define(`SKIP', `1')
 define(`GOLDEN_PLUS_SKIP', `3.62')
 define(`GOLDEN_PLUS_2SKIP', `4.62')
