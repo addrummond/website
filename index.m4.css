@@ -11,3 +11,9 @@ body {
   margin-bottom: STRIPHEIGHT()px;
 }
 
+h1 > a {
+  cursor: default;
+}
+h1 > a:hover {
+  color: DARKGREY;
+}
